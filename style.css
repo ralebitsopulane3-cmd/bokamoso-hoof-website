@@ -1,0 +1,28 @@
+/*GENERAL*/
+body{font-family: Arial, sans-serif; margin: 0; background-color; #fff8f0; color: #333;}
+/*HEADER*/
+header{background: #5a3e1b; color: white; text-align: center; padding: 20px;}
+/*NAVIGATION*/
+nav{background: #333; padding: 10px;}
+nav ul{list-style: none; display: flex; justify-content: center; margin: 0; padding: 0;>
+nav ul li a{margin: 0 20px;}
+nav ul li a{color: white; text decorations: none font weight: bold;}
+nav ul li a:hover{color: #ffcc70;}
+/*CONTENT*/
+.container{max-width: 1000px; margin: auto; padding: 20px}
+/*HEADINGS*/
+h1, h2, h3{color: #5a3e1b;}
+/*GRID(SERVICES)*/
+.grid{display: flex; gap: 20px; flex-wrap: wrap;}
+.grid div{background: white; padding: 15px; border-radius: 10px; flex: 1; min-width: 250px; box-shadow: 0 2px 5px rgba(0,0,0,0,1);}
+/*HOVER EFFECT(nice animation)*/
+.grid div:hover{transform: scale(1.05); transitions: 0.3s;}
+/*LIST*/
+ul, ol{margin-top: 10px;}
+/*BUTTON STYLE (optional future use)*/
+button{background: #5a3e1b; color: white; padding: 10px; border: none; border-radius: 5px;}
+/*FOOTER*/
+footer{background: #333; color: white; text-align: center; padding: 15px; margin-top: 20px;}
+/*RESPONSE DESIGN*/
+@media (max-width: 600px){nav ul{flex-direction: column; text-align: center:}
+.grid{flex-direction: column;}}
